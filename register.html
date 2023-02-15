@@ -475,6 +475,18 @@ input {
   padding-top: 55px;
   padding-bottom: 65px;
 }
+.btl {
+        margin-right: 120px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',serif;
+        font-size: 23px;
+        color:blue;
+        margin-top: 10px;
+        
+
+    }
+    
+
+
 
 @media (max-width: 767px) {
   .card-1 .card-body {
@@ -492,7 +504,27 @@ input {
             <div class="card card-1">
                 <div class="card-heading"></div>
                 <div class="card-body">
-                    <h2 class="title">Enroll Yourself</h2>
+                  <div class="registor">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <ul class="nav-item text-center">
+                            <a
+                                class="nav-link active btl"
+                                id="pills-home-tab"
+                                data-toggle="pill"
+                                role="tab"
+                                aria-controls="pills-home"
+                                aria-selected="true"
+                            >Register </a><a class="nav-link active btl"
+                            id="pills-home-tab"
+                            data-toggle="pill"
+                            target="_blank"
+                            role="tab"
+                            aria-controls="pills-home"
+                            aria-selected="true" href="#"><label style="font-size: 22px;color:#0565ff; font-family:  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',serif;">Institution Register</label></a>
+                        </ul>
+                        
+                    </ul>
+                </div>
                     <form method="POST">
                         <div class="input-group">
                             <input class="input--style-1" type="text" placeholder="FIRST NAME" name="name" required>
