@@ -455,6 +455,8 @@ h6,
 }
 
 
+
+
 /*** Footer ***/
 .footer {
     background: url(../img/footer.png) center center no-repeat;
@@ -473,6 +475,8 @@ h6,
     border-radius: 40px;
     transition: .3s;
 }
+
+
 
 .footer .btn.btn-social:hover {
     color: var(--primary);
